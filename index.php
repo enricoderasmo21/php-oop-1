@@ -51,7 +51,7 @@ require_once './db.php';
                         <td class="center"><?= $movie->duration . '"' ?></td>
                         <td class="center"><?= $movie->nation ?></td>
                         <td class="center"><?= $movie->year ?></td>
-                        <td class="center"><?= $movie->vote ?></td>
+                        <td class="center"><?= $movie->vote . "/5" ?></td>
                         <td class="center"><?= $movie->recommended ? "&#128077;" : "&#128078;" ?></td>
                     </tr>
                     <?php 
