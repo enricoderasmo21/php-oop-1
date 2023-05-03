@@ -22,7 +22,7 @@ li{
     flex-direction: row;
     justify-content: space-around;
 
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     padding: 10px 0;
 
     height: 100px;
@@ -70,6 +70,40 @@ li{
 
 /* /Header */
 
+
+
+
+
+/* Main */
+
+#title{
+    font-size: 3em;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+#container-centered{
+    margin: 50px auto;
+
+    width: 80%;
+}
+
+#table-titles{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* /Main */
+
+
+
+
+
 /* Footer */
 
 #footer{
@@ -78,7 +112,7 @@ li{
     align-items: center;
     justify-content: space-around;
 
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 20px;
 
     height: 200px;

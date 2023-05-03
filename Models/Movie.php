@@ -10,7 +10,7 @@ class Movie {
     public $vote;
     public $recommended = false;
 
-    function __construct(string $title, string $genre, int $duration, string $nation, int $year, float $vote) {
+    function __construct(string $title, Genre $genre, int $duration, string $nation, int $year, float $vote) {
 
         $this->title = $title;
         $this->genre = $genre;
