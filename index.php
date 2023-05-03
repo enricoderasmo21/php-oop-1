@@ -48,7 +48,7 @@ require_once './db.php';
                     <tr>
                         <td><?= $movie->title ?></td>
                         <td><?= $movie->genre->getFullGenre() ?></td>
-                        <td class="center"><?= $movie->duration ?></td>
+                        <td class="center"><?= $movie->duration . '"' ?></td>
                         <td class="center"><?= $movie->nation ?></td>
                         <td class="center"><?= $movie->year ?></td>
                         <td class="center"><?= $movie->vote ?></td>
